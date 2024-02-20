@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EA MANAGEMENT SYSTEM</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Electrolize');
+	@import url('https://fonts.googleapis.com/css?family=Alegreya SC');
+	@import url('https://fonts.googleapis.com/css?family=Bungee');
+	
+body {
+	background-image: url(blue.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	}
+.nav p{
+	text-align: center;
+}
+.info h1{
+	font-family: 'Bungee';
+	text-align: center;
+	background-color: #89cff0;
+}
+.info h3{
+	font-family:'Alegreya SC';
+}
+.info li{
+	font-family:'Alegreya SC';
+}
+button {
+  	color: white;
+ 	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+	background-color: #4CAF50;
+	} 
+	.info a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	display: block;
+	font-family: Electrolize;
+}
+.info a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.info a:hover:not(.active){
+	background-color: MediumSeaGreen;
+	color: rgb(255, 255, 255);
+}
+
+.dropdown1{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown1-content a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1-content a:hover {background-color: #ddd;}
+
+.dropdown1:hover .dropdown1-content {display: block;}
+
+.dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
+
+.dropdown2{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown2-content a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown2-content a:hover {background-color: #ddd;}
+
+.dropdown2:hover .dropdown2-content {display: block;}
+
+.dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
+
+</style>
+	
+<div class="content">
+		<div id="About">
+			<div class="info" align="center">
+				<p><h1>EA MANAGEMENT SYSTEM</h1></p>
+				<p><h3><b>Sila pilih untuk log masuk</b></h3></p>
+				<div class="dropdown1">
+				<p><button class ="dropbtn1">Admin</button>
+				<div class = "dropdown1-content">
+				</p>
+				
+<a href="index.php">PEGAWAI PENJAGA BLOK</a>
+<a href="#bb">PEMBANTU PEGAWAI PENJAGA BLOK</a>
+<a href="#cc">PEGAWAI SENGGARA</a>
+<a href="#dd">PENYELIA HOTEL</a></div></div>
+
+			<div class="dropdown2">
+				<p><button class ="dropbtn2">Guest</button>
+				<div class = "dropdown2-content">
+				</p>
+				
+<a href="#ee">PENGURUS WISMA</a>
+<a href="#ff">PESERTA KURSUS</a>
+<a href="#gg">PENYELIA KURSUS</a>
+<a href="#hh">LAIN-LAIN</a></div></div>
+
+
+</html>
