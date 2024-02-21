@@ -12,6 +12,34 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.nav-icon {
+  font-size: 1.5rem;
+  color: var(--primaryColor);
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  background: var(--offWhite);
+  z-index: 1;
+}
+
+.nav-links {
+  /*height: 0;
+  overflow: hidden; */
+  transition: var(--mainTransition);
+  list-style-type: none; 
+}
 
 .App-header {
   background-color: #282c34;
